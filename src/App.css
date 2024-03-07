@@ -1,0 +1,28 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+}
+
+.comp-container{
+  border: 3px solid white;
+  background-color: rgba(255, 255, 255, 0.555);
+  width: 600px;
+  height: 400px;
+  max-height: 500px;
+  margin-top: 50px;
+  padding: 0 50px 0 50px;
+  font-size: 16px;
+  
+}
+
+.comp-container p{
+  font-family: 'bookerly';
+  font-size: 2.0em;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+  margin-top: 60px;
+}
+
+.comp-container:hover{
+  cursor: pointer;
+}
