@@ -37,16 +37,3 @@ img {
   height: 30px;
   margin-right: 10px;
 }
-
-div .buttons{
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 30%;
-}
-
-button {
-  width: 80px; height: 70px;
-  font-size: 30px;
-}

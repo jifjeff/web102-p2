@@ -16,12 +16,11 @@ function App() {
       cardNumber={cardNumber} setCardNumber={setCardNumber} dataLength={randomizedQuestions.length}/>
     </>
   )
-
-/* credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array */
 }
 
+/* credit: https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array */
 function shuffle(array) {
-  let currentIndex = array.length,  randomIndex;
+  let currentIndex = array.length, randomIndex;
 
   while (currentIndex > 0) {
     randomIndex = Math.floor(Math.random() * currentIndex);

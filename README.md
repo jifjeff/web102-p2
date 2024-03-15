@@ -1,42 +1,44 @@
-# Web Development Project 2 - Flashcard App
+# Web Development Project 3 - Updated Flashcard app
 
-Submitted by: Jeffrey Xu
+Submitted by: **Jeffrey Xu**
 
-This web app: A flashcard system that is put into a web app
+This web app: **A web flashcard app that's been updated to include a guess input from the user along with a few extra features**
 
-Time spent: **10** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The title of the card set and some information about it, such as a short description and the total number of cards are displayed**
-- [x] **A single card at a time is displayed, only showing one of the components of the information pair**
-- [x] **A list of card pairs is created**
-- [x] **Clicking on the card shows the corresponding component of the information pair**
-- [x] **Clicking the next button displays a random new card**
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
 The following **optional** features are implemented:
 
-- [ ] Cards contains images in addition to or in place of text
-- [ ] Cards have different visual styles such as color based on their category
-  - [ ] *visual style implemented*
+- [ ] A shuffle button is used to randomize the order of the cards
+- [ ] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [ ] A counter displays the user's current and longest streak of correct responses
+- [ ] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
-No **additional** features were implemented
+The following **additional** features are implemented:
+- [x] User must submit a guess before revealing the answer
+  - [x] Additionally, notifies the user a guess needs to be submitted if they try to reveal it before
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented required features:
+Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/49rajWg.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/gMfuU50.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 LICECap for Windows
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Adding new features to the webpage messed with the positions of certain elements, so had to play around with my CSS file to fix it.
+Also, since it was my first time integrating react hooks with forms & inputs, I had some trouble learning how to use it properly.
 
 ## License
 
